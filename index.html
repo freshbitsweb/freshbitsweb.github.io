@@ -236,6 +236,19 @@
         </div>
     </aside>
 
+    <!-- Youtube Video -->
+    <section id="youtube-video" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="videoWrapper">
+                        <iframe id="youtube-frame" width="1280" height="720" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact">
         <div class="container">
@@ -505,6 +518,8 @@
                 }
                 return false;
             });
+
+            $("#youtube-frame").attr("src","https://www.youtube.com/embed/qxPhW9xLJi0?rel=0");
         });
     </script>
 
