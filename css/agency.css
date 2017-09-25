@@ -50,6 +50,10 @@ h6 {
 .bg-light-green {
   background-color: #4db252;
 }
+.bg-career {
+  background-color: #464a4c;
+  color: white;
+}
 .bg-darkest-gray {
   background-color: #222222;
 }
@@ -847,4 +851,61 @@ body {
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+
+/* Careers section*/
+.career-content {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.career-content i {
+    font-weight: 800;
+}
+.career-sub-title {
+    font-size: 26px;
+}
+.career-background {
+    background: url('../img/careers/careers-banner.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (min-width: 1300px) and (max-width: 2000px) {
+    .career-content {
+        margin-bottom: 31%;
+        padding: 7% 7% 19%;
+    }
+    .career-content p {
+        font-size: 18px !important;
+    }
+}
+
+@media (min-width: 920px) and (max-width: 1500px) {
+    .career-content {
+        margin-bottom: 29%;
+        padding: 7% 7% 16%;
+    }
+    .career-content p {
+        font-size: 18px !important;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 900px) {
+    .career-content {
+        margin-bottom: 35%;
+        padding: 5% 7% 1%;
+    }
+    .career-content p {
+        font-size: 18px !important;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+    .career-content {
+        margin-bottom: 58%;
+        padding: 1% 7% 0%;
+    }
+    .career-content p {
+        font-size: 15px;
+    }
 }
