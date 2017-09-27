@@ -50,10 +50,6 @@ h6 {
 .bg-light-green {
   background-color: #4db252;
 }
-.bg-career {
-  background-color: #464a4c;
-  color: white;
-}
 .bg-darkest-gray {
   background-color: #222222;
 }
@@ -853,16 +849,34 @@ body {
 	height: 100%;
 }
 
+/* Team Section */
+.team-member {
+    margin-bottom: 50px;
+    text-align: center
+}
 
-/* Careers section*/
-.careers-content > div:nth-child(1) {
-    text-align: right;
+.team-member img {
+    width: 225px;
+    height: 225px;
+    border: 7px solid #fff
 }
-.careers-content > div:nth-child(2) {
-    text-align: left;
+
+.team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none
 }
-@media (min-width: 300px) and (max-width: 992px) {
-    .careers-content > div {
-        text-align: center !important;
-    }
+
+.team-member p {
+    margin-top: 0
+}
+.rounded-circle {
+    border-radius: 50%;
+}
+.mx-auto {
+    width: 66%;
+    display: inline-block;
+}
+.list-inline-item h4 {
+    margin-top: 15px;
 }
